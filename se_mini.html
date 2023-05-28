@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="seo uses">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>
+        Smart NoticeBoard
+    </title>
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar" style="background-color: yellow;">
+        <h1 class="logo"><b>
+                <i><big>Smart NoticeBoard</big></i>
+
+            </b>
+        </h1>
+        <ul class="nav-links" style="background-color: whitesmoke;">
+            <li class="active"><a href="#"></a><big><u>Home</u></big></li>
+            <li><a href="http://localhost/php_tu/Login.php" target="_blank"><b><b>LOGIN</b></b></a></li>
+            <li><a href="#"></a><b><big>Notification</big></b></li>
+            <li><a href="#"></a><b><big>View Profile</big></b></li>
+            <li>
+                <select name="college" id="car" style="color: rgb(18, 25, 104) ;">
+                    <option value="caras"><big>View Institute</big></option>
+                    <option value="omni1">IIT </option>
+                    <option value="omni2">NITs</option>
+                    <option value="omni3">GFTIs</option>
+                    <option value="omni4">Others</option>
+                </select>
+            </li>
+            <li class="ctn"><a href="http://localhost/php_tu/contact.php" target="_main"><b><b>Contact us</b></b></a></li>
+        </ul>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Know your Fests!</h2>
+            <div class="line"></div>
+            <h1>EXPLORE & NETWORK</h1>
+
+            <a href="https://www.google.com" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- ==Events== -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img-one.jpg" alt="" width="350px">
+                <h4>
+                    Artificial Intelligence Event
+                </h4>
+                <p>List of the best hand-picked artificial intelligence and machine learning events, conferences,
+                    summits, workshops in 2022 in India.</p>
+                <a href="https://www.google.com/search?q=ai+event&rlz=1C1CHZO_enIN941IN941&oq=AI+eve&aqs=chrome.1.69i57j0i67j0i512l7j0i20i263i512.12581j1j15&sourceid=chrome&ie=UTF-8&ibp=htl;events&rciv=evn&sxsrf=ALiCzsYC452X0mmIaEdFtZao-oENw4BZiA:1658230411040#htivrt=events&htidocid=L2F1dGhvcml0eS9ob3Jpem9uL2NsdXN0ZXJlZF9ldmVudC8yMDIyLTA4LTIwfDM1Njc5ODU3ODc3Mzg0NjU3NzM%3D&fpstate=tldetail"
+                    target="_blank" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img-two.jpg" alt="" width="350px">
+                <h4>
+                    IT Networking Event
+                </h4>
+                <p>Create the infrastructure for digital transformation and connect IT and OT networks. Industrial
+                    networks with know-how from Siemens as a basis for digitalisation.</p>
+                <a href="https://www.indeed.com/career-advice/career-development/types-of-networking-events"
+                    target="_blank" class="ctn">Learn More</a>
+            </div>
+        </div>
+        <section class="explore">
+            <div class="'explore-content">
+                
+                <h1>Explore New Domains!</h1>
+                <img src="img-three.jpg" alt="" width="350px">
+                <p>You can discover and search for all domain extensions on our domain name search page. Use the search
+                    bar as a TLD checker to find your dream domain name.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="line"></div>
+        </section>
+        
+    </section>
+    
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</head>
+
+</html>
